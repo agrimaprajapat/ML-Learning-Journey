@@ -1,40 +1,76 @@
-# Machine Learning Learning Journey
+# 🤖 ML Models from Scratch
 
-This repository contains my hands-on practice while learning Machine Learning using Python and Scikit-Learn.
+A personal learning repo where I implement machine learning models as I study them — with clean code, saved models, and notes.
 
-## Models Covered
+---
+
+## 🗂️ Repo Structure
+
+```
+ml-models/
+│
+├── 01 Linear Regression/
+├── 02 Logistic Regression/
+├── 03 Decision Trees/
+├── 04 Random Forest/
+├── 05 K-Nearest Neighbors/
+├── 06 Support Vector Machines/
+├── 07 K-Means Clustering/
+│
+└── README.md
+```
+
+Each model lives in its own folder with its code, saved model file, and a short explanation.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/ml-models.git
+cd ml-models
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run any model
+python linear_regression/linear_regression.py
+```
+
+---
+
+## 🧰 Tech Stack
+
+- **Python 3.x**
+- **scikit-learn** — model building
+- **joblib** — saving & loading models
+- **NumPy / Pandas** — data handling
+- **Matplotlib** — visualizations (coming soon)
+
+---
+
+## 📖 Learning Roadmap
 
 - [x] Linear Regression
 - [ ] Logistic Regression
-- [ ] K-Nearest Neighbors (KNN)
-- [ ] Support Vector Machine (SVM)
-- [ ] Decision Tree
+- [ ] Decision Trees
 - [ ] Random Forest
-- [ ] Naive Bayes
+- [ ] K-Nearest Neighbors (KNN)
+- [ ] Support Vector Machines (SVM)
 - [ ] K-Means Clustering
 
-## Repository Structure
+---
 
-ML-LEARNING/
-├── 01_Linear_Regression/
-├── 02_Logistic_Regression/
-├── 03_KNN/
-├── 04_SVM/
-└── ...
+## 💡 Why This Repo?
 
-## Technologies Used
+I'm learning ML step by step and building this repo to:
+- Reinforce concepts by implementing them
+- Keep a reference I can revisit
+- Track my progress over time
 
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
+---
 
-## Current Progress
+## 📬 Contact
 
-Completed:
-- Linear Regression on Insurance Dataset
-  - Data preprocessing
-  - Train-test split
-  - Model training
-  - Model evaluation (R² Score)
-  - Model saving using Joblib
+Feel free to open an issue or reach out if you spot something wrong or want to suggest a model!
